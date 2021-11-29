@@ -11,7 +11,7 @@ Calculation::Calculation(char op, double operand1, double operand2)
     else if (op == '-')
         result = operand1 - operand2;
     else if (op == '*')
-        result = operand1 + operand2;
+        result = operand1 * operand2;
     else if (op == '/')
         result = operand1 / operand2;
 }
